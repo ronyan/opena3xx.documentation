@@ -33,9 +33,9 @@ The panel is divided into functional sections for realism and usability:
 
 | Switch                  | Function                                                                        | Legend                    | Type            |
 | ----------------------- | ------------------------------------------------------------------------------- | ------------------------- | --------------- |
-| **WING**                | Heats leading edges of the wings.                                               | `FAULT` Amber / `ON` Blue | Momentary Korry |
-| **ENG1 / ENG2**         | Activates engine nacelle anti-ice for respective engine.                        | `FAULT` Amber / `ON` Blue | Momentary Korry |
-| **PROBE / WINDOW HEAT** | Activates heating for pitot tubes, static ports, and windshields. Off is `AUTO` | Blank / `ON` Blue         | Momentary Korry |
+| **WING**                | Heats leading edges of the wings.                                               | `FAULT` Amber / `ON` Blue | Momentary Korry / pb sw / latching|
+| **ENG1 / ENG2**         | Activates engine nacelle anti-ice for respective engine.                        | `FAULT` Amber / `ON` Blue | Momentary Korry / pb sw / latching|
+| **PROBE / WINDOW HEAT** | Activates heating for pitot tubes, static ports, and windshields. Off is `AUTO` | Blank / `ON` Blue         | Momentary Korry / pb / momentary|
 
 ---
 
@@ -72,8 +72,8 @@ Pushbuttons are circular with silkscreen labels indicating states (e.g., `ON`, `
 
 | Switch        | function                      | Legend/colours            | Type            |
 | ------------- | ----------------------------- | ------------------------- | --------------- |
-| **MASTER SW** | Controls APU master switch.   | `FAULT` Amber / `ON` Blue | Momentary Korry |
-| **START**     | Initiates APU start sequence. | `AVAIL` green / `ON` Blue | Momentary Korry |
+| **MASTER SW** | Controls APU master switch.   | `FAULT` Amber / `ON` Blue | Momentary Korry / pb sw / latching|
+| **START**     | Initiates APU start sequence. | `AVAIL` green / `ON` Blue | Momentary Korry / pb / momentary|
 
 Each uses a **Korry-style switch** with `FAULT`, indications.
 
